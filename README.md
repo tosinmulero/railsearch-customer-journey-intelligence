@@ -10,6 +10,24 @@ from search through booking.
 
 ---
 
+## Recruiter visual pack
+
+These figures are generated from the synthetic RailSearch analytical workflow.
+
+<p align="center">
+  <img src="reports/figures/daily_conversion_rate.png" alt="RailSearch daily conversion rate" width="100%">
+</p>
+
+| Zero-Result Monitoring | Checkout Error Monitoring |
+| --- | --- |
+| ![Daily zero-result rate](reports/figures/daily_zero_result_rate.png) | ![Daily checkout error rate](reports/figures/daily_checkout_error_rate.png) |
+
+| Model Feature Importance | Precision-Recall Curve |
+| --- | --- |
+| ![RailSearch feature importance](reports/figures/stage4_feature_importance.png) | ![RailSearch precision recall curve](reports/figures/stage4_precision_recall_curve.png) |
+
+---
+
 ## Business problem
 
 RailSearch investigates realistic digital-travel questions:
