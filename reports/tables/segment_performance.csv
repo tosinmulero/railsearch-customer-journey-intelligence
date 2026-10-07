@@ -1,0 +1,17 @@
+device_type,customer_type,is_logged_in,searches,bookings,conversion_rate_pct,zero_result_rate_pct,checkout_error_rate_pct,revenue
+Mobile Web,New,0,15238,3900.0,25.59,5.78,8.08,255532.89
+iOS App,New,0,21288,5744.0,26.98,5.88,4.58,375286.75
+Android App,New,0,17633,4789.0,27.16,5.5,4.87,316272.26
+Desktop Web,New,0,17220,4757.0,27.62,5.78,4.01,306840.19
+Mobile Web,New,1,5874,1641.0,27.94,6.01,8.22,107883.79
+Desktop Web,New,1,6806,1938.0,28.47,5.57,4.49,128593.19
+Mobile Web,Returning,0,6115,1785.0,29.19,5.84,7.94,118058.74
+Android App,Returning,0,7332,2175.0,29.66,5.91,4.5,142576.15
+Desktop Web,Returning,0,6880,2043.0,29.69,6.28,4.28,134454.54
+Android App,New,1,6841,2044.0,29.88,5.86,4.48,132570.66
+iOS App,Returning,0,8841,2674.0,30.25,5.62,4.44,174241.34
+iOS App,New,1,8422,2549.0,30.27,5.51,4.37,167833.87
+Mobile Web,Returning,1,27491,8380.0,30.48,5.7,8.3,561511.92
+iOS App,Returning,1,39789,12612.0,31.7,5.87,4.23,834823.85
+Android App,Returning,1,33333,10613.0,31.84,5.56,4.84,699219.27
+Desktop Web,Returning,1,31621,10115.0,31.99,5.77,4.44,663455.11

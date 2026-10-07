@@ -1,0 +1,104 @@
+﻿project:
+  name: RailSearch Customer Journey & Conversion Intelligence
+  version: 1.0
+
+datasets:
+
+  sessions:
+    grain: one row per customer session
+    primary_key: session_id
+    columns:
+      - session_id
+      - customer_id
+      - session_started_at
+      - device_type
+      - operating_system
+      - acquisition_channel
+      - customer_type
+      - country
+      - is_logged_in
+
+  searches:
+    grain: one row per journey search
+    primary_key: search_id
+    foreign_keys:
+      - session_id
+    columns:
+      - search_id
+      - session_id
+      - searched_at
+      - origin_station
+      - destination_station
+      - travel_date
+      - passengers
+      - journey_type
+      - railcard_used
+      - results_count
+      - search_latency_ms
+      - zero_results_flag
+
+  journey_results:
+    grain: one row per journey option displayed
+    primary_key: result_id
+    foreign_keys:
+      - search_id
+    columns:
+      - result_id
+      - search_id
+      - operator
+      - departure_time
+      - arrival_time
+      - duration_minutes
+      - changes
+      - fare
+      - fare_type
+      - selected_flag
+
+  checkout:
+    grain: one row per checkout attempt
+    primary_key: checkout_id
+    foreign_keys:
+      - session_id
+      - search_id
+    columns:
+      - checkout_id
+      - session_id
+      - search_id
+      - checkout_started_at
+      - device_type
+      - payment_method
+      - checkout_error_flag
+      - error_type
+      - payment_failure_flag
+      - checkout_completed_flag
+
+  bookings:
+    grain: one row per completed booking
+    primary_key: booking_id
+    foreign_keys:
+      - session_id
+      - search_id
+      - checkout_id
+    columns:
+      - booking_id
+      - session_id
+      - search_id
+      - checkout_id
+      - booked_at
+      - ticket_value
+      - booking_fee
+      - total_revenue
+      - passengers
+      - operator
+      - origin_station
+      - destination_station
+
+  station_reference:
+    grain: one row per railway station
+    primary_key: station_code
+    columns:
+      - station_code
+      - station_name
+      - region
+      - annual_entries_exits
+      - interchange_volume

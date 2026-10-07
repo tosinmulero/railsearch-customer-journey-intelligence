@@ -1,0 +1,66 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Python tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated raw / warehouse data
+data/raw/
+data/interim/
+data/processed/
+
+# DuckDB / databases
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary diagnostics
+stage2a_error.txt
+*.log
+*.tmp
+*.temp
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Keep production model artifact
+!artifacts/
+!artifacts/models/
+!artifacts/models/railsearch_conversion_model.joblib
+
+# Reports are intentionally retained for portfolio evidence
+!reports/
+
+# Repository cleanup
+scripts/scripts/
+artifacts/stage4_test_predictions.parquet

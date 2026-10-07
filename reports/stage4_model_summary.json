@@ -1,0 +1,85 @@
+{
+  "champion_model": "Logistic Regression",
+  "prediction_point": "after search results and before journey selection",
+  "features": [
+    "device_type",
+    "operating_system",
+    "acquisition_channel",
+    "customer_type",
+    "country",
+    "origin_station",
+    "destination_station",
+    "journey_type",
+    "is_logged_in",
+    "passengers",
+    "railcard_used",
+    "results_count",
+    "search_latency_ms",
+    "zero_results_flag",
+    "days_before_travel",
+    "search_hour",
+    "day_of_week",
+    "search_month"
+  ],
+  "train_rows": 172612,
+  "validation_rows": 44760,
+  "test_rows": 43352,
+  "test_metrics": {
+    "roc_auc": 0.6011037161998626,
+    "pr_auc": 0.36866626653524615,
+    "log_loss": 0.5834132213118098,
+    "brier_score": 0.20174128969396074,
+    "accuracy": 0.7009826536261303,
+    "precision_050": 0.0,
+    "recall_050": 0.0,
+    "f1_050": 0.0
+  },
+  "ranking": {
+    "overall_test_booking_rate_pct": 29.9,
+    "top_decile_booking_rate_pct": 41.43,
+    "top_decile_lift": 1.386
+  },
+  "best_f1_threshold": 0.25,
+  "top_features": [
+    {
+      "feature": "railcard_used",
+      "importance_mean": 0.044207385196420555
+    },
+    {
+      "feature": "zero_results_flag",
+      "importance_mean": 0.022735559802918654
+    },
+    {
+      "feature": "customer_type",
+      "importance_mean": 0.0063043073316539355
+    },
+    {
+      "feature": "is_logged_in",
+      "importance_mean": 0.0030588619439983478
+    },
+    {
+      "feature": "device_type",
+      "importance_mean": 0.0026177420969599927
+    },
+    {
+      "feature": "operating_system",
+      "importance_mean": 0.0018078139003125753
+    },
+    {
+      "feature": "destination_station",
+      "importance_mean": 0.0012867097152552593
+    },
+    {
+      "feature": "acquisition_channel",
+      "importance_mean": 0.0003026913804306715
+    },
+    {
+      "feature": "results_count",
+      "importance_mean": 0.00017579973068088117
+    },
+    {
+      "feature": "search_latency_ms",
+      "importance_mean": 7.1064547438493e-05
+    }
+  ]
+}

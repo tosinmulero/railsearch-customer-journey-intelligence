@@ -1,0 +1,21 @@
+route,searches,zero_result_searches,zero_result_rate_pct,conversion_rate_pct,revenue,avg_search_latency_ms
+Southampton Central → Glasgow Central,304,47.0,15.46,27.3,5290.82,854.97
+Stansted Airport → Edinburgh Waverley,300,46.0,15.33,24.33,3770.88,843.46
+Luton → Newcastle,299,45.0,15.05,26.42,4626.14,859.83
+Luton → Edinburgh Waverley,301,45.0,14.95,22.92,4928.63,834.95
+Stansted Airport → Newcastle,301,45.0,14.95,22.92,4340.66,846.54
+Southampton Central → Edinburgh Waverley,331,48.0,14.5,21.45,3717.31,846.62
+Luton → Glasgow Central,316,41.0,12.97,31.96,5939.83,839.88
+Southampton Central → Newcastle,297,34.0,11.45,28.28,5149.7,816.53
+Glasgow Central → London Euston,264,28.0,10.61,28.03,4780.37,824.01
+Cardiff Central → Manchester Piccadilly,321,34.0,10.59,31.78,6276.03,843.31
+Milton Keynes Central → Glasgow Central,281,29.0,10.32,24.91,4590.32,825.77
+Liverpool Lime Street → Luton,291,30.0,10.31,28.18,5462.91,834.87
+Stansted Airport → Glasgow Central,300,30.0,10.0,26.33,5363.93,858.32
+Sheffield → Glasgow Central,301,29.0,9.63,30.23,6746.74,818.01
+Leeds → London Waterloo,313,30.0,9.58,24.92,5046.87,836.43
+Cambridge → London Euston,317,30.0,9.46,29.34,5656.06,838.09
+London Euston → Sheffield,289,27.0,9.34,29.41,5473.7,851.39
+Brighton → Edinburgh Waverley,292,27.0,9.25,35.62,7095.89,827.95
+Leeds → York,314,29.0,9.24,29.62,6521.17,850.6
+Manchester Piccadilly → Stansted Airport,271,25.0,9.23,26.57,5085.63,819.88

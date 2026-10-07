@@ -1,0 +1,41 @@
+{
+  "overall": {
+    "searches": 260724.0,
+    "searches_with_results": 245731.0,
+    "selected_searches": 121427.0,
+    "checkout_attempts": 121427.0,
+    "bookings": 77759.0,
+    "results_available_rate_pct": 94.25,
+    "selection_rate_pct": 49.41,
+    "checkout_to_booking_rate_pct": 64.04,
+    "search_to_book_rate_pct": 29.82,
+    "revenue": 5119154.52
+  },
+  "supply_incident": {
+    "baseline_zero_result_rate_pct": 5.83,
+    "incident_zero_result_rate_pct": 20.21,
+    "zero_result_rate_change_pp": 14.38,
+    "baseline_conversion_rate_pct": 30.28,
+    "incident_conversion_rate_pct": 24.2,
+    "conversion_change_pp": -6.08,
+    "baseline_latency_ms": 815.02,
+    "incident_latency_ms": 1121.15,
+    "estimated_lost_bookings": 79.5,
+    "estimated_revenue_impact": 5066.14,
+    "zero_result_test_p_value": 0.0,
+    "zero_result_effect_size_cohen_h": 0.445
+  },
+  "checkout_incident": {
+    "baseline_checkout_error_rate_pct": 5.69,
+    "incident_checkout_error_rate_pct": 20.66,
+    "checkout_error_change_pp": 14.97,
+    "baseline_checkout_conversion_pct": 63.5,
+    "incident_checkout_conversion_pct": 54.32,
+    "checkout_conversion_change_pp": -9.18,
+    "estimated_lost_bookings": 187.9,
+    "estimated_revenue_impact": 12557.72,
+    "checkout_error_test_p_value": 0.0,
+    "checkout_error_effect_size_cohen_h": 0.4619
+  },
+  "anomaly_alert_days": 9
+}

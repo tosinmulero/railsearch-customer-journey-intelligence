@@ -1,0 +1,3 @@
+period,searches,zero_result_searches,bookings,zero_result_rate_pct,conversion_rate_pct,avg_search_latency_ms,average_order_value,revenue
+Baseline,5303,309.0,1606.0,5.83,30.28,815.02,63.71,102315.64
+Incident,1306,264.0,316.0,20.21,24.2,1121.15,60.49,19114.39

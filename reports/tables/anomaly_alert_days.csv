@@ -1,0 +1,10 @@
+metric_date,searches,bookings,revenue,zero_result_rate_pct,checkout_error_rate_pct,search_to_book_conversion_pct,conversion_zscore,zero_result_zscore,checkout_error_zscore,alert_reason
+2026-02-02,1454,396.0,26497.03,6.05,4.98,27.24,-2.64,0.73,-0.06,Conversion decline
+2026-02-23,1466,422.0,28772.14,5.39,6.82,28.79,-0.81,-0.34,2.77,Checkout-error spike
+2026-03-10,1370,381.0,26541.34,7.52,4.57,27.81,-1.68,2.59,-0.51,Zero-result spike
+2026-03-12,1454,414.0,28654.41,7.98,4.16,28.47,-0.99,2.66,-1.05,Zero-result spike
+2026-04-13,1488,415.0,26235.34,5.65,12.38,27.89,-1.89,-0.18,9.54,Checkout-error spike
+2026-04-14,1308,355.0,23295.63,5.66,12.56,27.14,-2.35,-0.13,4.58,Checkout-error spike
+2026-04-15,1357,358.0,24394.34,6.34,11.82,26.38,-2.67,1.0,2.98,Conversion decline; Checkout-error spike
+2026-04-19,1476,384.0,25786.57,5.15,12.73,26.02,-2.51,-1.08,2.38,Conversion decline
+2026-07-01,38,10.0,838.64,13.16,0.0,26.32,-3.03,14.85,-5.48,Conversion decline; Zero-result spike
